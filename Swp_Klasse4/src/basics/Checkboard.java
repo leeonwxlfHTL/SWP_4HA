@@ -2,15 +2,15 @@ package basics;
 
 import java.util.Scanner;
 
-public class Checkerboard {
+public class Checkboard {
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("Checkerboard width: ");
+		System.out.print("Checkboard width: ");
 		int width = sc.nextInt();
 		
-		System.out.print("Checkerboard height: ");
+		System.out.print("Checkboard height: ");
 		int height = sc.nextInt();
 		
 		for(int i = 0; i < height; i++) {
