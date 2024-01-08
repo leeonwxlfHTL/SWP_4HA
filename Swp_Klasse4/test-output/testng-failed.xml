@@ -5,7 +5,7 @@
     <classes>
       <class name="testNG.MyMathTest">
         <methods>
-          <include name="testSubtraction"/>
+          <include name="testDoubleDivision"/>
         </methods>
       </class> <!-- testNG.MyMathTest -->
     </classes>
