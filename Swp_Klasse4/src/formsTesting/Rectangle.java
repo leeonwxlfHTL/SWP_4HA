@@ -28,11 +28,11 @@ public class Rectangle extends Form {
 	}
 
 	public double calculateArea() {
-		return this.width*2;
+		return this.width*this.length;
 	}
 
 	public double calculateCircumference() {
-		return (this.width+this.length);
+		return (this.width+this.length)*2;
 	}
 	
 	public String toString() {
