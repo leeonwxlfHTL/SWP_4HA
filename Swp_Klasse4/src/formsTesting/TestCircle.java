@@ -38,6 +38,24 @@ public class TestCircle {
         String result = circle.toString();
         Assert.assertEquals(result, "Circle (0.0|0.0) with radius = 5.0");
     }
+    @Test
+    public void testCalculateArea1() {
+        Circle circle = new Circle(0, 0, 0);
+        double result = circle.calculateArea();
+        Assert.assertEquals(result, 0.0);
+    }
+    @Test
+    public void testCalculateCircumference1() {
+        Circle circle = new Circle(0, 0, 0);
+        double result = circle.calculateCircumference();
+        Assert.assertEquals(result, 0.0);
+    }
+    @Test
+    public void testToString1() {
+        Circle circle = new Circle(0, 0, 0);
+        String result = circle.toString();
+        Assert.assertEquals(result, "Circle (0.0|0.0) with radius = 0.0");
+    }
 
 }
 
