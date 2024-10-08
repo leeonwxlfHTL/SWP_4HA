@@ -6,15 +6,15 @@ public class Square extends Form {
 	
 	public Square(double x, double y, double width) {
 		super(x, y);
-		rectangle = new Rectangle(x,y,width,3*width);
+		rectangle = new Rectangle(x,y,width,width);
 	}
 
 	public Rectangle getRectangle() {
-		return rectangle;
+		return this.rectangle;
 	}
 
 	public void setRectangle(Rectangle rectangle) {
-		this.rectangle = rectangle;
+		rectangle = this.rectangle;
 	}
 
 	public double calculateArea() {
