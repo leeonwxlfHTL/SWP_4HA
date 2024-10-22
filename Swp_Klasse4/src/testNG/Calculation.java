@@ -58,8 +58,8 @@ public class Calculation {
      * @return base to the power of exponent
      */
     public static int toThePowerOf(int base, int exponent) {
-    	int result = 0;
-    	for(int i = 0; i <= exponent; i++) {
+    	int result = base;
+    	for(int i = 1; i <= (exponent-1); i++) {
     		result *= base;
     	}
     	return result;
