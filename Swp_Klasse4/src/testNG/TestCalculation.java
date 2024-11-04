@@ -51,7 +51,7 @@ public class TestCalculation {
 
     @Test
     public void testToThePowerOf2() {
-        int result = Calculation.toThePowerOf(4, 4);
-        Assert.assertEquals(result, 256);
+        int result = Calculation.toThePowerOf(4, 0);
+        Assert.assertEquals(result, 1);
     }
 }
