@@ -1,4 +1,4 @@
-package ExeptionTesting;
+package ExceptionTesting;
 
 public class UserSpec_Exception {
     public int calculateFactorial(int number) {

@@ -1,4 +1,4 @@
-package ExeptionTesting;
+package ExceptionTesting;
 
 import java.io.File;
 import java.io.FileNotFoundException;

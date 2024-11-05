@@ -1,4 +1,4 @@
-package ExeptionTesting;
+package ExceptionTesting;
 
 import org.testng.annotations.Test;
 

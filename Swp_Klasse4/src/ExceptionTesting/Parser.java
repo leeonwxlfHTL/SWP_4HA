@@ -1,6 +1,4 @@
-package ExeptionTesting;
-
-import com.sun.jdi.InvalidLineNumberException;
+package ExceptionTesting;
 
 public class Parser {
     public int parseInt(String value) throws InvalidNumberException {

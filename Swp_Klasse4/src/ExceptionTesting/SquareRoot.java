@@ -1,4 +1,4 @@
-package ExeptionTesting;
+package ExceptionTesting;
 
 public class SquareRoot {
 
