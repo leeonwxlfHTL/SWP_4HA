@@ -9,17 +9,24 @@ public class NotificationIterator implements Iterator {
         this.pos = 0;
     }
 
+    /**
+     * Returns the next element
+     * @return the next element
+     */
     public Object next(){
         Notification notification = notificationList[pos];
         pos++;
         return notification;
     }
 
+    /**
+     * Checks if there is a next element
+     * @return true if there is a next element, false if not
+     */
     public  boolean hasNext() {
         if(pos < notificationList.length && notificationList[pos] != null) {
             return true;
-        } else {
-            return false;
         }
+        return false;
     }
 }
