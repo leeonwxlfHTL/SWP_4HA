@@ -1,9 +1,9 @@
 package designPatternIterator;
 
 public class NotificationBar {
-    private NotificationCollection notifications;
+    private Collection notifications;
 
-    public NotificationBar(NotificationCollection notifications) {
+    public NotificationBar(Collection notifications) {
         super();
         this.notifications = notifications;
     }
