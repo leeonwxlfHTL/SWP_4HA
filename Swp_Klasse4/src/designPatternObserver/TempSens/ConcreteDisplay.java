@@ -12,7 +12,7 @@ public class ConcreteDisplay implements  Display{
     }
 
     public void update(String value) {
-        this.value = value;
+        this.setValue(value);
     }
 
 }

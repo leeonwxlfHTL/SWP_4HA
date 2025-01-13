@@ -5,7 +5,7 @@ package designPatternObserver.TempSens;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TempSens {
+public abstract class TempSens {
 
 
     private List<Display> registertedDisplays;
@@ -27,6 +27,10 @@ public class TempSens {
             d.update(value);
         }
     }
+
+    abstract String getValue();
+
+    abstract void setValue(String value);
 
 
 }

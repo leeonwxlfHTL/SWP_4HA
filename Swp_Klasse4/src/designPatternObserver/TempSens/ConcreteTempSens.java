@@ -1,6 +1,6 @@
 package designPatternObserver.TempSens;
 
-public class ConcreteTempSens {
+public class ConcreteTempSens extends TempSens {
     private String value;
 
     public String getValue() {
@@ -9,7 +9,6 @@ public class ConcreteTempSens {
 
     public void setValue(String value) {
         this.value = value;
-        TempSens Ts = new TempSens();
-        Ts.notifyDisplays(value);
+        notifyDisplays(value);
     }
 }
