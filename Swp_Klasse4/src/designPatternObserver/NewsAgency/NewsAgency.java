@@ -1,4 +1,4 @@
-package designPatternObserver;
+package designPatternObserver.NewsAgency;
 
 import java.util.ArrayList;
 import java.util.List;

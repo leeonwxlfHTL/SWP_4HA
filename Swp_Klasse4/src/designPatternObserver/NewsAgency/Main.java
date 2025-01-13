@@ -1,4 +1,4 @@
-package designPatternObserver;
+package designPatternObserver.NewsAgency;
 
 public class Main {
 

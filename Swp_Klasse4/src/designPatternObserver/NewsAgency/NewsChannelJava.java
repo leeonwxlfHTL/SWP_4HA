@@ -1,4 +1,4 @@
-package designPatternObserver;
+package designPatternObserver.NewsAgency;
 
 import java.util.Observer;
 import java.util.Observable;

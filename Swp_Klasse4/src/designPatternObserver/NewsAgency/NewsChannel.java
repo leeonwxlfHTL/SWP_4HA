@@ -1,6 +1,6 @@
-package designPatternObserver;
+package designPatternObserver.NewsAgency;
 
-public class NewsChannel implements Channel{
+public class NewsChannel implements Channel {
 
     private String news;
 
