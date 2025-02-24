@@ -1,4 +1,4 @@
-package designPatternAbstractFactory;
+package designPatternAbstractFactory.furnitureFactory;
 
 public abstract class FurnitureFactory {
 
