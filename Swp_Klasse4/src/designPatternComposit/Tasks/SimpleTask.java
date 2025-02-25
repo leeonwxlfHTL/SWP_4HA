@@ -2,9 +2,11 @@ package designPatternComposit.Tasks;
 
 public class SimpleTask extends Task{
 
+    private String title;
+
     @Override
     String getTitle() {
-        return ();
+        return (title);
     }
 
     @Override

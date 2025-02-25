@@ -1,5 +1,8 @@
 package designPatternComposit.Shapes;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ComposedShape extends Shape {
 
     private List<Shape> shapes;
@@ -16,6 +19,6 @@ public class ComposedShape extends Shape {
 
     @Override
     public void add(Shape shape) {
-        this.shapes.add(shape)
+        this.shapes.add(shape);
     }
 }
